@@ -1,0 +1,22 @@
+section {
+ text-align: center;
+ background: 
+ url(images/banner-girl.png ) 60px,
+ url(images/flower-bkgd.jpg);
+ 
+ background-repeat: no-repeat;
+ 
+ height: 460px;
+ background-position: center;
+ background-position: top;
+}
+aside{
+	width: auto;
+	display: inline-block;
+}
+
+
+
+
+
+ 
