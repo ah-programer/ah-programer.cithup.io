@@ -3,18 +3,22 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="style.css">	
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<title>aloha</title>
 	</head>
+
 <body>
 
 
-<header>
-
-	<img class="alloha-logo" src="images/aloha-logo.svg">
-	<img class="cart-logo" src="images/cart-icon.svg">
+<header class="site-header clearfix">
+	<div class="aloha-logo">
+		<img src="images/aloha-logo.svg">
+	</div>
+	<div class="cart">
+		<img src="images/cart-icon.svg">
+	</div>
 	</header>
-
+</div>
 
 
 
@@ -30,49 +34,44 @@
       <br>
 
       <h1>new collection </h1>
-       <h2>  sepring/summer-2016<h2>
+       <h2>  sepring/summer-2016</h2>
        </div>
       </section>
  	<section class="about">
- 	<div class="container text">
+ 	<div class="container-text">
  	<h1>Hand-Crafted Styles</h1>
-	<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+	<p> <center>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</center></p>
 	</div>
 	</section>
 
-
 	<section class="product">
 	<div class="container">
-	<h2>Hand-Crafted Styles</h2> 
+	<h1> Most-Loved Products </h1>
 	<ul class="product-list">
 		<li>
-			<img src="images/stretch-knit-dress.jpg" width="300px" />
-			<p class="products">Dresses</p>
+			<img src="images/stretch-knit-dress.jpg" />
+			<p>Dresses</p>
 			<h3 class="red">Stretch Knit Dress</h3>
 			<p class="price">$169.00</p>
 		</li>	
     
         <li>	
-		    <img src="images/cotton-blue-shirt.jpg" width="300px"/>
-            <p class="products">Shirts"</p>
-		    <h3>Cotton Blue Shirt</h3>
+		    <img src="images/cotton-blue-shirt.jpg"/>
+            <p>Shirts</p>
+		    <h3 class="ss">Cotton Blue Shirt</h3>
 		    <p class="price">$89.00</p>
 		</li>    
     
- 
-	 
 		<li>
-            <img src="images/blue-hipster-backpack.jpg" width="300px"/>
-            <p class="products">Bags</p>
+            <img src="images/blue-hipster-backpack.jpg"/>
+            <p>Bags</p>
             <h3>Blue Hipster Backpack</h3>
             <p class="price">$69.00</p>
         </li>       
-    
-
-    
+       
         <li>        
-            <img src="images/checked-stretch-dress.jpg" width="300px"/>
-             <p class="products">Dresses</p>
+            <img src="images/checked-stretch-dress.jpg"/>
+             <p>Dresses</p>
             <h3>Checked Stretch Dress</h3>
             <p class="price">129.00</p>
         </li>
@@ -90,29 +89,26 @@
 		</h2>
 		<p>Stay updated on our latest product releases, be fist to find out about upcoming sales, and get free style tips from our blog. Unsubscibe at any time .</p>
 
-		<form class="sing-up-form">
+		<form class="sign-up-form">
 			<input type="email" name="your-email" value="" placeholder="Your Email">
 
 			<input type="submit" name="subscribe" value="" placeholder= "Subscribe">
 
-
 		</form>
-
-
 	
 </div>
-	
 
 </section>
 
-<footer class="site footer">
+<footer class="footer">
 	<div class="container clearfix">
- 		<div class="colophon">
+ 		
  		<div class="copyright">
  		  <p> <i class="fa-fa-copyright" aria-hidden="true"></i> 2016 Aloha Apparel  co.</p>
  		  <p>powered by HTML and CSS</p>
  		  	
  		</div>
+ 
  		<div class="contact">
  			<p>604-604-6040
  			<a href="mailto:info@alohaapparel.com"><span style="color: white;"> info@alohaapparel.com </span></a>
@@ -140,9 +136,9 @@
 </body>
 </html>
 
+<!-- 
 
-
-
+import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) -->
 
 <!-- 
    <section class="featured">
